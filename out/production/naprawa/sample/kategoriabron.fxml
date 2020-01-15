@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox fx:id="kategoriabron" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ScrollPane prefHeight="567.0" prefWidth="1080.0" vbarPolicy="ALWAYS">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2800.0" prefWidth="583.0">
+               <children>
+                   <Pane fx:id="bron01" prefHeight="100.0" prefWidth="964.0" AnchorPane.topAnchor="0.0">
+                       <children>
+                           <Text layoutX="281.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Miecz &quot;Katana&quot;">
+                               <font>
+                                   <Font size="40.0" />
+                               </font>
+                           </Text>
+                           <Text layoutX="283.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Długi opis produktu Długi opis produktu Długi opis produktu Długi opis produktu Długi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuvDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktu Długi opis produktu Długi opis produktuDługi " wrappingWidth="386.59765625" />
+                           <Text fill="#e11515" layoutX="283.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1229,65zł">
+                               <font>
+                                   <Font name="System Bold" size="20.0" />
+                               </font>
+                           </Text>
+                           <ImageView fitHeight="145.0" fitWidth="252.0" layoutX="14.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+                               <image>
+                                   <Image url="@images/miecz.png" />
+                               </image>
+                           </ImageView>
+                        <Button fx:id="dodaj" layoutX="826.0" layoutY="58.0" mnemonicParsing="false" onAction="#dodaj_do_koszyka" text="text" />
+                       </children>
+                   </Pane>
+                   <Pane fx:id="bron02" prefHeight="252.0" prefWidth="469.0" AnchorPane.topAnchor="300.0">
+                       <children>
+                           <Text layoutX="281.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kamy">
+                               <font>
+                                   <Font size="40.0" />
+                               </font>
+                           </Text>
+                           <Text layoutX="283.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Długi opis produktu Długi opis produktu Długi opis produktu Długi opis produktu Długi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuvDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktu Długi opis produktu Długi opis produktuDługi " wrappingWidth="386.59765625" />
+                           <Text fill="#e11515" layoutX="283.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1229,65zł">
+                               <font>
+                                   <Font name="System Bold" size="20.0" />
+                               </font>
+                           </Text>
+                           <ImageView fitHeight="145.0" fitWidth="252.0" layoutX="14.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+                               <image>
+                                   <Image url="@images/bron02.jpg" />
+                               </image>
+                           </ImageView>
+                           <Button layoutX="786.0" layoutY="174.0" mnemonicParsing="false" onAction="#dodaj_do_koszyka" style="-fx-background-color: #e8e845;" text="Dodaj do koszyka" textFill="#303030" />
+                       </children>
+                   </Pane>
+                   <Pane fx:id="bron03" prefHeight="252.0" prefWidth="100.0" AnchorPane.topAnchor="600.0">
+                       <children>
+                           <Text layoutX="281.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nóż Kunai">
+                               <font>
+                                   <Font size="40.0" />
+                               </font>
+                           </Text>
+                           <Text layoutX="283.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Długi opis produktu Długi opis produktu Długi opis produktu Długi opis produktu Długi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuvDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktu Długi opis produktu Długi opis produktuDługi " wrappingWidth="386.59765625" />
+                           <Text fill="#e11515" layoutX="283.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1229,65zł">
+                               <font>
+                                   <Font name="System Bold" size="20.0" />
+                               </font>
+                           </Text>
+                           <ImageView fitHeight="145.0" fitWidth="252.0" layoutX="14.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+                               <image>
+                                   <Image url="@images/bron03.jpg" />
+                               </image>
+                           </ImageView>
+                           <Button layoutX="786.0" layoutY="174.0" mnemonicParsing="false" onAction="#dodaj_do_koszyka" style="-fx-background-color: #e8e845;" text="Dodaj do koszyka" textFill="#303030" />
+                       </children>
+                   </Pane>
+                   <Pane fx:id="bron04" prefHeight="252.0" prefWidth="964.0" AnchorPane.topAnchor="900.0">
+                       <children>
+                           <Text layoutX="281.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shuriken">
+                               <font>
+                                   <Font size="40.0" />
+                               </font>
+                           </Text>
+                           <Text layoutX="283.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Długi opis produktu Długi opis produktu Długi opis produktu Długi opis produktu Długi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuvDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktu Długi opis produktu Długi opis produktuDługi " wrappingWidth="386.59765625" />
+                           <Text fill="#e11515" layoutX="283.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1229,65zł">
+                               <font>
+                                   <Font name="System Bold" size="20.0" />
+                               </font>
+                           </Text>
+                           <ImageView fitHeight="145.0" fitWidth="252.0" layoutX="14.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+                               <image>
+                                   <Image url="@images/bron04.jpg" />
+                               </image>
+                           </ImageView>
+                           <Button layoutX="786.0" layoutY="174.0" mnemonicParsing="false" onAction="#dodaj_do_koszyka" style="-fx-background-color: #e8e845;" text="Dodaj do koszyka" textFill="#303030" />
+                       </children>
+                   </Pane>
+                   <Pane fx:id="bron05" prefHeight="252.0" prefWidth="964.0" AnchorPane.topAnchor="1200.0">
+                       <children>
+                           <Text layoutX="281.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nóż Tanto">
+                               <font>
+                                   <Font size="40.0" />
+                               </font>
+                           </Text>
+                           <Text layoutX="283.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Długi opis produktu Długi opis produktu Długi opis produktu Długi opis produktu Długi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuvDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktu Długi opis produktu Długi opis produktuDługi " wrappingWidth="386.59765625" />
+                           <Text fill="#e11515" layoutX="283.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1229,65zł">
+                               <font>
+                                   <Font name="System Bold" size="20.0" />
+                               </font>
+                           </Text>
+                           <ImageView fitHeight="145.0" fitWidth="252.0" layoutX="14.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+                               <image>
+                                   <Image url="@images/bron05.jpg" />
+                               </image>
+                           </ImageView>
+                           <Button layoutX="786.0" layoutY="174.0" mnemonicParsing="false" onAction="#dodaj_do_koszyka" style="-fx-background-color: #e8e845;" text="Dodaj do koszyka" textFill="#303030" />
+                       </children>
+                   </Pane>
+                   <Pane fx:id="bron06" prefHeight="252.0" prefWidth="964.0" AnchorPane.topAnchor="1500.0">
+                       <children>
+                           <Text layoutX="281.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kij BO">
+                               <font>
+                                   <Font size="40.0" />
+                               </font>
+                           </Text>
+                           <Text layoutX="283.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Długi opis produktu Długi opis produktu Długi opis produktu Długi opis produktu Długi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuvDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktu Długi opis produktu Długi opis produktuDługi " wrappingWidth="386.59765625" />
+                           <Text fill="#e11515" layoutX="283.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1229,65zł">
+                               <font>
+                                   <Font name="System Bold" size="20.0" />
+                               </font>
+                           </Text>
+                           <ImageView fitHeight="145.0" fitWidth="252.0" layoutX="14.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+                               <image>
+                                   <Image url="@images/bron06.jpg" />
+                               </image>
+                           </ImageView>
+                           <Button layoutX="786.0" layoutY="174.0" mnemonicParsing="false" onAction="#dodaj_do_koszyka" style="-fx-background-color: #e8e845;" text="Dodaj do koszyka" textFill="#303030" />
+                       </children>
+                   </Pane>
+                   <Pane fx:id="bron07" prefHeight="252.0" prefWidth="964.0" AnchorPane.topAnchor="1800.0">
+                       <children>
+                           <Text layoutX="281.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nunchaku">
+                               <font>
+                                   <Font size="40.0" />
+                               </font>
+                           </Text>
+                           <Text layoutX="283.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Długi opis produktu Długi opis produktu Długi opis produktu Długi opis produktu Długi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuvDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktu Długi opis produktu Długi opis produktuDługi " wrappingWidth="386.59765625" />
+                           <Text fill="#e11515" layoutX="283.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1229,65zł">
+                               <font>
+                                   <Font name="System Bold" size="20.0" />
+                               </font>
+                           </Text>
+                           <ImageView fitHeight="145.0" fitWidth="252.0" layoutX="14.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+                               <image>
+                                   <Image url="@images/bron07.jpg" />
+                               </image>
+                           </ImageView>
+                           <Button layoutX="786.0" layoutY="174.0" mnemonicParsing="false" onAction="#dodaj_do_koszyka" style="-fx-background-color: #e8e845;" text="Dodaj do koszyka" textFill="#303030" />
+                       </children>
+                   </Pane>
+                   <Pane fx:id="bron08" prefHeight="252.0" prefWidth="964.0" AnchorPane.topAnchor="2100.0">
+                       <children>
+                           <Text layoutX="281.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sztylety Sai">
+                               <font>
+                                   <Font size="40.0" />
+                               </font>
+                           </Text>
+                           <Text layoutX="283.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Długi opis produktu Długi opis produktu Długi opis produktu Długi opis produktu Długi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuvDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktu Długi opis produktu Długi opis produktuDługi " wrappingWidth="386.59765625" />
+                           <Text fill="#e11515" layoutX="283.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1229,65zł">
+                               <font>
+                                   <Font name="System Bold" size="20.0" />
+                               </font>
+                           </Text>
+                           <ImageView fitHeight="145.0" fitWidth="252.0" layoutX="14.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+                               <image>
+                                   <Image url="@images/bron08.jpg" />
+                               </image>
+                           </ImageView>
+                           <Button layoutX="786.0" layoutY="174.0" mnemonicParsing="false" onAction="#dodaj_do_koszyka" style="-fx-background-color: #e8e845;" text="Dodaj do koszyka" textFill="#303030" />
+                       </children>
+                   </Pane>
+                   <Pane fx:id="bron09" prefHeight="252.0" prefWidth="964.0" AnchorPane.topAnchor="2400.0">
+                       <children>
+                           <Text layoutX="281.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Włócznia Yari">
+                               <font>
+                                   <Font size="40.0" />
+                               </font>
+                           </Text>
+                           <Text layoutX="283.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Długi opis produktu Długi opis produktu Długi opis produktu Długi opis produktu Długi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktuvDługi opis produktuDługi opis produktuDługi opis produktuDługi opis produktu Długi opis produktu Długi opis produktuDługi " wrappingWidth="386.59765625" />
+                           <Text fill="#e11515" layoutX="283.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1229,65zł">
+                               <font>
+                                   <Font name="System Bold" size="20.0" />
+                               </font>
+                           </Text>
+                           <ImageView fitHeight="145.0" fitWidth="252.0" layoutX="14.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+                               <image>
+                                   <Image url="@images/bron09.jpg" />
+                               </image>
+                           </ImageView>
+                           <Button layoutX="786.0" layoutY="174.0" mnemonicParsing="false" onAction="#dodaj_do_koszyka" style="-fx-background-color: #e8e845;" text="Dodaj do koszyka" textFill="#303030" />
+                       </children>
+                   </Pane>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</HBox>

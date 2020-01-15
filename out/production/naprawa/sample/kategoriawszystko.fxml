@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<HBox fx:id="kategoriawszystko" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ScrollPane prefHeight="680.0" prefWidth="1080.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="5080.0" prefWidth="1080.0">
+               <children>
+                  <BorderPane fx:id="borderpane_wszystko" prefHeight="5080.0" prefWidth="1080.0">
+                     <top>
+                        <Pane prefHeight="2800.0" prefWidth="680.0" style="-fx-background-color: blue;" BorderPane.alignment="CENTER" />
+                     </top>
+                     <center>
+                        <Pane prefHeight="1200.0" prefWidth="680.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER" />
+                     </center>
+                     <bottom>
+                        <Pane prefHeight="900.0" prefWidth="680.0" style="-fx-background-color: red;" BorderPane.alignment="CENTER" />
+                     </bottom></BorderPane>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</HBox>
